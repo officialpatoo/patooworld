@@ -8,9 +8,8 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-1.5-pro-002',
-    name: 'PATOOWORLD SEARCH',
-    'Gemini 1.5 pro',
-    provider: '',
+    name: 'Patooworld Search',
+    provider: ',',
     providerId: 'google'
   },
   {
