@@ -14,7 +14,7 @@ export const models: Model[] = [
   },
  {
   id: 'gemini-2.0-flash-exp',
-  name: '99PACE',
+  name: 'Gemini Flash',
    provider: '',
   providerId: 'google'
   }
