@@ -11,11 +11,5 @@ export const models: Model[] = [
   name: 'PATOOWORLD',
   provider: '',
   providerId: 'google'
-  },
- {
-  id: 'gemini-2.0-flash-exp',
-  name: '99PACE',
-   provider: '',
-  providerId: 'google'
-}
+  }
 ]
