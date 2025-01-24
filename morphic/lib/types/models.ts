@@ -9,7 +9,7 @@ export const models: Model[] = [
 {
   id: 'gemini-1.5-pro-002',
   name: 'PATOOWORLD',
-  provider: 'Speed and Efficiency Enhanced by GOOGLE Gemini Your Choice, We Adore',
+  provider: 'Speed and Efficiency Enhanced by GOOGLE Gemini Your Choice.',
   providerId: 'google'
   },
   {
