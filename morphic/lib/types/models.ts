@@ -9,13 +9,13 @@ export const models: Model[] = [
 {
   id: 'gemini-1.5-pro-002',
   name: 'PATOOWORLD',
-  provider: 'Your Choice, We Adore',
+  provider: 'Speed and Efficiency Enhanced by GOOGLE Gemini Your Choice, We Adore',
   providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash-exp',
     name: '99PACE',
-     provider: 'Speed and Efficiency',
+     provider:'',
      providerId: 'google'
     }
 ]
