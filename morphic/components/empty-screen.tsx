@@ -11,8 +11,8 @@ const exampleMessages = [
     message: 'Why is Nvidia growing rapidly?'
   },
   {
-    heading: 'Latest Technology Trends',
-    message: 'Latest Technology Trends'
+    heading: 'Speed and Efficiency',
+    message: 'Speed and Efficiency Technology Trends'
   },
   {
     heading: 'Summary: https://arxiv.org/pdf/2407.16833',
