@@ -13,8 +13,8 @@ export const models: Model[] = [
   providerId: 'google'
   },
   {
-    id: 'gemini-2.0-flash-exp',
     name: '99PACE',
+     id: 'gemini-2.0-flash-exp',
      provider: 'Speed and Efficiency',
      providerId: 'google'
     }
