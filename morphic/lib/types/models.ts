@@ -7,8 +7,8 @@ export interface Model {
 
 export const models: Model[] = [
 {
-  id: 'gemini-1.5-pro-002',
   name: 'PATOOWORLD',
+  id: 'gemini-1.5-pro-002',
   provider: 'Paradox Of Choice.',
   providerId: 'google'
   },
