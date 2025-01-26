@@ -9,13 +9,13 @@ export const models: Model[] = [
 {
   name: 'PATOOWORLD',
   id: 'gemini-1.5-pro-002',
-  provider: 'Paradox Of Choice.',
+  provider: 'Google Gen AI',
   providerId: 'google'
   },
   {
-    name: '99PACE',
+    name: 'Patooword Pace',
      id: 'gemini-2.0-flash-exp',
-     provider: 'Speed and Efficiency',
+     provider: 'Google Gen AI',
      providerId: 'google'
     }
 ]
