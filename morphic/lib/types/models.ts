@@ -7,15 +7,15 @@ export interface Model {
 
 export const models: Model[] = [
 {
-  name: 'PATOOWORLD',
+  name: 'PATOOWORLD AI',
   id: 'gemini-1.5-pro-002',
-  provider: 'Google Gen AI',
+  provider: 'Gemini 1.5 and 2.0 Powered',
   providerId: 'google'
   },
   {
-    name: 'PATOOWORLD 99PACE',
+    name: '99PACE AG',
      id: 'gemini-2.0-flash-exp',
-     provider: 'Google Gen AI',
+     provider: '',
      providerId: 'google'
     }
 ]
