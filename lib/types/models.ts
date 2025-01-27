@@ -6,16 +6,16 @@ export interface Model {
 }
 
 export const models: Model[] = [
- {
-  id: 'gemini-2.0-flash-exp',
-  name: 'PATOOWORLD',
-   provider: '',
-  providerId: 'google'
-  },
- {
+{
+  name: 'PATOOWORLD AI',
   id: 'gemini-1.5-pro-002',
-  name: '99PACE',
-  provider: '',
+  provider: 'Gemini-Powered',
   providerId: 'google'
   },
+  {
+    name: '99PACE',
+     id: 'gemini-2.0-flash-exp',
+     provider: 'Gemini-Powered',
+     providerId: 'google'
+    }
 ]
