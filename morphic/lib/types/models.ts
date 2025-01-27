@@ -13,7 +13,7 @@ export const models: Model[] = [
   providerId: 'google'
   },
   {
-    name: 'Patooword Pace',
+    name: 'PATOOWORLD 99PACE',
      id: 'gemini-2.0-flash-exp',
      provider: 'Google Gen AI',
      providerId: 'google'
