@@ -6,7 +6,7 @@ import { Button } from './ui/button'
 const Footer: React.FC = () => {
   return (
     <footer className="w-fit p-1 md:p-2 fixed bottom-0 right-0">
-      <div className="flex justify-end">
+      <div className="flex justify-end items-center"> 
         <Button
           variant={'ghost'}
           size={'icon'}
@@ -19,9 +19,9 @@ const Footer: React.FC = () => {
         <Button
           variant={'ghost'}
           size={'icon'}
-          className="text-muted-foreground/50"
+          className="text-muted-foreground/50 mx-2" 
         >
-          <Link href="https://x.com/morphic_ai" target="_blank">
+          <Link href="https://x.com/patooworld" target="_blank">
             <SiX size={18} />
           </Link>
         </Button>
@@ -34,6 +34,13 @@ const Footer: React.FC = () => {
             <SiGithub size={18} />
           </Link>
         </Button>
+      </div>
+      <div className="text-xs text-muted-foreground mt-2"> 
+        {/* Added a new div for the copyright information */}
+        Gimini 1.5 pro and 2.0 Powered. 
+        <Link href="https://linkedin.com/company/patooworld" target="_blank">
+          <a className="hover:text-primary">LinkedIn</a>
+        </Link>
       </div>
     </footer>
   )
