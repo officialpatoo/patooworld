@@ -16,7 +16,6 @@ export const models: Model[] = [
     name: '99PACE AG',
      id: 'gemini-2.0-flash-exp',
      provider: 'completing tasks, engaging in conversations, creative content, translate languages, and summarize text.',
-     provider: 'Gemini 1.5 and 2.0 Powered',
      providerId: 'google'
     }
 ]
