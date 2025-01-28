@@ -1,31 +1,45 @@
-import React from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Chat } from '@/lib/types';
-import { cn } from '@/lib/utils';
-import { useSession } from 'next-auth/react'; 
+import React from 'react'
 
-type HistoryItemProps = {
-  chat: Chat;
-  showOnlyUserChats?: boolean; // Optional prop to control visibility
-};
+import { History } from './history'
 
-const formatDateWithTime = (date: Date | string) => {
-  // ... (same as before)
-};
+import { HistoryList } from './history-list'
 
-const HistoryItem: React.FC<HistoryItemProps> = ({ chat, showOnlyUserChats = true }) => { 
-  const { data: session } = useSession();
-  const pathname = usePathname();
-  const isActive = pathname === chat.path;
 
-  if (showOnlyUserChats && chat.userId !== session?.user?.id) {
-    return null; 
-  }
 
-  return (
-    // ... (rest of the component remains the same)
-  );
-};
+type HistoryContainerProps = {
 
-export default HistoryItem;
+  location: 'sidebar' | 'header'
+
+}
+
+
+
+const HistoryContainer: React.FC<HistoryContainerProps> = async ({
+
+  location
+
+}) => {
+
+  return (
+
+    <div
+
+      className={location === 'header' ? 'block sm:hidden' : 'hidden sm:block'}
+
+    >
+
+      <History location={location}>
+
+        <HistoryList userId="anonymous" />
+
+      </History>
+
+    </div>
+
+  )
+
+}
+
+
+
+export default HistoryContainer
