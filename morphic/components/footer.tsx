@@ -37,9 +37,9 @@ const Footer: React.FC = () => {
       </div>
       <div className="text-xs text-muted-foreground mt-2"> 
         {/* Added a new div for the copyright information */}
-        Gimini 1.5 pro and 2.0 Powered. 
+        GEMINI 1.5 PRO and 2.0 POWERED. 
         <Link href="https://linkedin.com/company/patooworld" target="_blank">
-          <a className="hover:text-primary">LinkedIn</a>
+          <a className="hover:text-primary">LINKEDIN</a>
         </Link>
       </div>
     </footer>
