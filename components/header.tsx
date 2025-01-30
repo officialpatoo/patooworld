@@ -15,8 +15,10 @@ export const Header: React.FC = async () => {
       </div>
       <div className="flex gap-0.5">
         <ModeToggle />
-        <HistoryContainer location="header" />
+        {/* <HistoryContainer location="header" /> */}
       </div>
     </header>
   )
 }
+
+export default Header
