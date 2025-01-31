@@ -7,7 +7,7 @@ export interface Model {
 
 export const models: Model[] = [
 {
-  id: 'gemini-1.5-pro-002',
+  id: '(gemini-1.5-pro-002)',
   name: 'PATOOWORLD AI',
   provider: 'PATOOWORLD',
   providerId: 'google'
