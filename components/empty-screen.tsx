@@ -12,7 +12,7 @@ const exampleMessages = [
   },
   {
     heading: 'Tesla Rivian AI-powered Automatives',
-    message: 'Tesla Aerospace Rivian Mercedes-Benz'
+    message: 'Tesla Rivian Mercedes-Benz'
   },
   {
     heading: 'Latest Technology Trends',
