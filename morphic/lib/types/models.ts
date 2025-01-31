@@ -8,14 +8,14 @@ export interface Model {
 export const models: Model[] = [
 {
   id: 'gemini-1.5-pro-002',
+  provider: 'Gemini 1.5 pro (Choice)',
   name: 'PATOOWORLD AI',
-  provider: 'Functionality: The AI Assist is based on user’s choice as the AI continues Evolving for all purpose.',
   providerId: 'google'
   },
   {
   id: 'gemini-2.0-flash-exp',
+  provider: 'Gemini Flash (Speed and Efficiency)',
   name: '99PACE AG',
-  provider: 'completing tasks, engaging in conversations, creative content, translate languages, and summarize text.',
   providerId: 'google'
   }
 ]
