@@ -19,13 +19,12 @@ AI-Powered Search Engine.
 - Search and answer using GenerativeUI
 - Understand user's questions
 - Search history functionality
-- Share search results ([Optional](https://github.com/miurla/morphic/blob/main/.env.local.example))
-- Video search support ([Optional](https://github.com/miurla/morphic/blob/main/.env.local.example))
+- Share search results
 - Get answers from specified URLs
-- Use as a search engine [※](#-search-engine)
+- Use as a search engine #-search engine)
 - Support for providers other than OpenAI
   - Google Generative AI Provider
-  - Azure OpenAI Provider [※](https://github.com/miurla/morphic/issues/13)
+  - Azure OpenAI Provider
   - Anthropic Provider
   - Ollama Provider
   - Groq Provider
@@ -59,7 +58,6 @@ git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
 ### 2. Install dependencies
 
 ```
-cd morphic
 bun install
 ```
 
