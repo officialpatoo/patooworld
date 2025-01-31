@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils'
 
 function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
-    <svg
+ <svg
       fill="currentColor"
       viewBox="0 0 256 256"
       role="img"
