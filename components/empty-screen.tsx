@@ -11,8 +11,8 @@ const exampleMessages = [
     message: 'Why is Nvidia growing rapidly?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Tesla Rivian AI-powered Automatives',
+    message: 'Tesla Starship Rivian Mercedes-Benz'
   },
   {
     heading: 'Latest Technology Trends',
