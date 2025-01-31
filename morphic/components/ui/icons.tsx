@@ -2,7 +2,7 @@
 
 import { cn } from '@/lib/utils'
 
-function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
+function IconLogo({ className, PW.props }: React.ComponentProps<'svg'>) {
   return (
     <svg
       fill="currentColor"
@@ -10,7 +10,7 @@ function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
       role="img"
       xmlns="http://www.w3.org/2000/svg"
       className={cn('h-4 w-4', className)}
-      {...props}
+      {PW.props}
     >
       <circle cx="128" cy="128" r="128" fill="black"></circle>
       <circle cx="102" cy="128" r="18" fill="white"></circle>
