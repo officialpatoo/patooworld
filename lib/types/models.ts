@@ -8,14 +8,14 @@ export interface Model {
 export const models: Model[] = [
 {
   id: 'gemini-1.5-pro-002',
-  name: 'PATOOWORLD AI',
   provider: 'Gemini 1.5 pro',
+  name: 'PATOOWORLD AI',
   providerId: 'google'
   },
   {
   id: 'gemini-2.0-flash-exp',
-  name: '99PACE AG',
   provider: 'Gemini Flash',
+  name: '99PACE AG',
   providerId: 'google'
   }
 ]
